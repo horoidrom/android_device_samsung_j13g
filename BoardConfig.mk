@@ -52,7 +52,7 @@ BOARD_KERNEL_CMDLINE := console=ttyS1,115200n8 androidboot.selinux=permissive an
 BOARD_KERNEL_PAGESIZE := 2048
 #TARGET_KERNEL_CONFIG := j13g-dt_hw01_defconfig
 #TARGET_KERNEL_SOURCE := kernel/samsung/j13g
-TARGET_PREBUILT_KERNEL   := device/samsung/j1pop3g/zImage
+TARGET_PREBUILT_KERNEL   := device/samsung/j1pop3g/6
 TARGET_PREBUILT_DTB      := device/samsung/j1pop3g/dt
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK := device/samsung/j13g/mkbootimg.mk
