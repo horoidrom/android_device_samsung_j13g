@@ -54,14 +54,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 #TARGET_KERNEL_SOURCE := kernel/samsung/j13g
 TARGET_PREBUILT_KERNEL   := device/samsung/j13g/zImage.img
 TARGET_PREBUILT_DTB      := device/samsung/j13g/dt.img
-# Kernel
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/j13g/mkbootimg.mk
-BOARD_KERNEL_TAGS_OFFSET := 0x00000100
-BOARD_RAMDISK_OFFSET := 0x01000000
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000
-BOARD_KERNEL_SEPARATED_DT := true
-TARGET_KERNEL_ARCH := arm
-TARGET_KERNEL_HEADER_ARCH := arm
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/j13g/dt.img
 
 # RIL
 BOARD_RIL_CLASS += ../../../device/samsung/j13g/ril
