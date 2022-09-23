@@ -53,7 +53,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 #TARGET_KERNEL_CONFIG := j13g-dt_hw01_defconfig
 #TARGET_KERNEL_SOURCE := kernel/samsung/j13g
 TARGET_PREBUILT_KERNEL   := device/samsung/j13g/6
-TARGET_PREBUILT_DTB      := device/samsung/j13g/j1pop3gdt
+TARGET_PREBUILT_DTB      := device/samsung/j13g/dt.img
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK := device/samsung/j13g/mkbootimg.mk
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
