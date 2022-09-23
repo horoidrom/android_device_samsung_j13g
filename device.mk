@@ -76,7 +76,7 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
 	persist.service.adb.enable=1 \
 	persist.logd.logpersistd=logcatd
 
-PRODUCT_COPY_FILES += device/samsung/j13g/k.img:kernel
+PRODUCT_COPY_FILES += device/samsung/j13g/zImage.img:kernel
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := full_j13g
